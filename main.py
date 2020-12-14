@@ -23,7 +23,7 @@ def main():
     preco_galao = galao * 25
 
     print(f'O valor gasto comprando apenas galões é de R$ {preco_galao:.2f}.')
-    print(f'Serão necessários {galao} latas.')
+    print(f'Serão necessários {galao} galões.')
 
     #O valor gasto comprando de forma que gere a menor quantidade de desperdício é de R$ [valor com duas casas decimais].Serão necessárias [quantidade] latas e [quantidade] galões.
 
