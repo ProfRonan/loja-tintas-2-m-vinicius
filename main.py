@@ -33,9 +33,8 @@ def main():
     resto = math.ceil(resto)
     valor_final = (litros * 80) + ((resto) * 25)
 
-    print(
-        f'O valor gasto comprando de forma que gere a menor quantidade de desperdício é de R$ {valor_final:.2f}. Serão necessárias {litros} latas e {resto} galões.'
-    )
+    print(f'O valor gasto comprando de forma que gere a menor quantidade de desperdício é de R$ {valor_final:.2f}.')
+    print(f'Serão necessárias {litros} latas e {resto} galões.')
 
 
 if __name__ == '__main__':
